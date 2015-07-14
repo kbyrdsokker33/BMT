@@ -11,6 +11,14 @@ video{
     z-index: -100;
     background-size: cover;
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
 .section1-header{
         overflow:hidden;
         height: auto; /* Full PAge */
@@ -27,7 +35,7 @@ video{
 h1#BMT{
     display: none;	
     text-transform:uppercase;
-    color: white;
+    color: blue;
     text-shadow:black 2px;
     font-size: 50px;
     z-index: 1;
