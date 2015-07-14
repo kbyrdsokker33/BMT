@@ -1,8 +1,8 @@
 video{
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
