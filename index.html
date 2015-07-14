@@ -74,7 +74,7 @@ Since its founding in 2000, BMT has given students of uncommon intellectual abil
 Members of Boy Meets Tractor write and rehearse two times per week and film sketches once a week; from this bounty of comedy, the group culls approximately forty-seven minutes of actual content and four deer per semester. Still, the members of Boy Meets Tractor remain committed to bringing quality sketch comedy to the Swarthmore campus and the world. The group has posted several of its videos on YouTube, court-case pending, and you can check out the entire BMT opus on their free podcast by searching "Boy Meets Tractor" in the iTunes Music Store. You may also attempt to access their website, which, like Schrödinger's Cat, is available in a state of simultaneous existence and non-existence at any given moment.</p>
         </div>
         <div class="col-xs-6">
-          <img src="imgs/BMT.png">
+          <img id="squad" src="imgs/BMT.png">
         </div>
       </div>
       </div>
@@ -104,6 +104,7 @@ Members of Boy Meets Tractor write and rehearse two times per week and film sket
       })
         
      $(document).ready(function() {
+         $("h1").fadeIn(3000);
          $('#nav-ok').onePageNav({
             currentClass: "active",
             changeHash: false,
