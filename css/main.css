@@ -4,8 +4,3 @@ video{
     -o-background-size: cover;
     background-size: cover;
 }
-div{
-  width: 100%;
-  height: auto !important;
-  overflow: hidden;
-}
