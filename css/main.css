@@ -7,11 +7,21 @@ video{
     -moz-background-size: cover;
     -o-background-size: cover;
     background:url("http://elegantthemes.com/preview/InStyle/wp-content/uploads/2008/11/s-1.jpg");
+    background-repeat:no-repeat;
+    z-index: -100;
     background-size: cover;
 }
 .section{
     overflow:hidden;
 }
+
+h1#BMT{
+    text-transform:uppercase;
+    color: white;
+    border: black solid 2px;
+    font-size: 50px;
+}
+
 #loader-wrapper {
     position: fixed;
     top: 0;
