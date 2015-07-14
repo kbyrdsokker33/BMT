@@ -25,6 +25,7 @@ video{
 	padding-top:30px;
 }
 h1#BMT{
+    display: none;	
     text-transform:uppercase;
     color: white;
     text-shadow:black 2px;
