@@ -9,6 +9,9 @@ video{
     background:url("http://elegantthemes.com/preview/InStyle/wp-content/uploads/2008/11/s-1.jpg");
     background-size: cover;
 }
+#section{
+    overflow:hidden;
+}
 #loader-wrapper {
     position: fixed;
     top: 0;
