@@ -6,6 +6,6 @@ video{
 }
 div{
   width: 100%;
-  height: auto;
-  overflow: none;
+  height: auto !important;
+  overflow: hidden;
 }
