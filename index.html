@@ -14,27 +14,38 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
-  
- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   
 <body>
-  <div class="container">
-    <button id="demo-menu-lower-right"
-        class="mdl-button mdl-js-button mdl-button--icon">
-     <i class="material-icons">more_vert</i>
-   </button>
-
-   <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-      for="demo-menu-lower-right">
-     <li class="mdl-menu__item">Some Action</li>
-      <li class="mdl-menu__item">Another Action</li>
-       <li disabled class="mdl-menu__item">Disabled Action</li>
-      <li class="mdl-menu__item">Yet Another Action</li>
-    </ul>
-    <div>
-     
+ <div class="navbar navbar-inverse navbar-fixed-top" id="nav-ok1">
+     <div class="container">
+      <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse navHeaderCollapse" id="nav-ok">
+      <ul class="nav navbar-nav navbar-center" id="myMenu"> 
+      
+      <li data-menuanchor="Home"><a href="#Home">Home</a> </li>
+      <li data-menuanchor="About"><a href="#About">About Me</a> </li>
+      <li data-menuanchor="third"><a href="#third">Jawbone</a> </li>
+      <li data-menuanchor="four"><a href="#four">CODE2040</a> </li>
+      <li data-menuanchor="Experience"><a href="#Experience">Experience</a> </li>
+      <li data-menuanchor="Skills"><a href="#Skills">Skills</a> </li>
+      <li><a href="KendellByrd.pdf" target="_blank">Resume</a></li>
+       </ul>
+      
+    </div>
+  
+    
+    </div>
+  
+  
   </div>
  </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -44,5 +55,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.easings.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.min.js"></script>
+  <script>
+     $(document).ready(function() {
+       $('#fullpage').fullpage({
+          //sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE','#4BBFC3', 'whitesmoke'],
+          anchors: ['Home', 'About', 'third', 'four','Experience', 'Skills'],
+          menu: '#myMenu',
+          autoScrolling:false,
+          scrollBar:true,
+          verticalCentered:false,
+          fitToSection:false
+       });
+       
+    });
+   </script>
 </body>
 </html>
