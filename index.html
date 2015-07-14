@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> PE </title>
+  <title>Centre </title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -38,8 +38,8 @@
     <div class="collapse navbar-collapse navHeaderCollapse" id="nav-ok">
       <ul class="nav navbar-nav navbar-center" id="myMenu"> 
       
-      <li data-menuanchor="Home"><a href="#Home">Home!!</a> </li>
-      <li data-menuanchor="About"><a href="#About">About Me</a> </li>
+      <li><a href="#home">Home!!</a> </li>
+      <li><a href="#para">About Us! </a> </li>
       <li data-menuanchor="third"><a href="#third">Jawbone</a> </li>
       <li data-menuanchor="four"><a href="#four">CODE2040</a> </li>
       <li data-menuanchor="Experience"><a href="#Experience">Experience</a> </li>
@@ -50,21 +50,49 @@
     </div>
     </div>
     </div>
-    <div id="fullpage">
-    <div class="section">Some section</div>
-    <div class="section">Some section!!</div>
-    <div class="section">Some seddction</div>
-    <div class="section">Some section</div>
+
+    <div class="section1-header" id="home">
+        <div class="container col-xs-12">
+          <video preload autoplay loop muted poster="http://elegantthemes.com/preview/InStyle/wp-content/uploads/2008/11/s-1.jpg">
+          <source src="assets/Group.mp4" type="video/mp4">
+          <source src="assets/Groupweb.webm" type="video/webm">
+        </video>
+        <h1 id="BMT"> Boy Meets Tractor </h1>
+      </div>
     </div>
-  </div>
+    
+    <div class="content2" id="para">
+        <div class=container>
+          <h2> About Boy Meets Tractor</h2>
+          <div class=underline></div>
+          <div class="row">
+          <div class="col-xs-6">
+            <p>Boy Meets Tractor (BMT), one of the nation's finest institutions, is also Swarthmore's only sketch comedy group. Its members represent all 50 states, as well as all 63 countries and territories. Small, yet with the financial strength to let students pursue disciplines from Arabic to dinosaur science, from engineering to facts, from dinosaur science to knowledge, Boy Meets Tractor celebrates the life of the mind, seething and trembling with furious neuro-comedic activity. 
+
+Since its founding in 2000, BMT has given students of uncommon intellectual ability the knowledge, insight, skills, facts, and numbers to become leaders for the common good. And they do. In April BMT bested rival groups across the Philadelphia area for the title of "Best Sketch" at the Helium Comedy Club's College Comedy Competition, granting them a spot at the Philadelphia Sketch-fest in June, as well as 46 Academy Award nominations, 7 Golden Globes awards, and a Pulitzer Prize. BMT members are Olympic-record-holding CEO patent-holders, lawyers who become college presidents who are also firefighters, escorts who serve Congress. BMT alumni founded the first liberal arts college on the moon and helped women win the right to vote. Located 11 miles southwest of Philadelphia, Boy Meets Tractor's idyllic, 357-acre campus is a designated arboretum, court-case pending.
+
+Members of Boy Meets Tractor write and rehearse two times per week and film sketches once a week; from this bounty of comedy, the group culls approximately forty-seven minutes of actual content and four deer per semester. Still, the members of Boy Meets Tractor remain committed to bringing quality sketch comedy to the Swarthmore campus and the world. The group has posted several of its videos on YouTube, court-case pending, and you can check out the entire BMT opus on their free podcast by searching "Boy Meets Tractor" in the iTunes Music Store. You may also attempt to access their website, which, like Schrödinger's Cat, is available in a state of simultaneous existence and non-existence at any given moment.</p>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+      
+      
+    
+    
+    
+    
   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="css/jquery.nav.js"></script>
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.easings.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.min.js"></script>
+  
   <script>
       $(window).load(function(){
         setTimeout(function(){
@@ -73,17 +101,14 @@
       })
         
      $(document).ready(function() {
-         
-       $('#fullpage').fullpage({
-          sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE','#4BBFC3', 'whitesmoke'],
-          anchors: ['Home', 'About', 'third', 'four','Experience', 'Skills'],
-          menu: '#myMenu',
-          autoScrolling:false,
-          scrollBar:true,
-          verticalCentered:false,
-          fitToSection:false
-       });
-       
+         $('#nav-ok').onePageNav({
+            currentClass: "active",
+            changeHash: false,
+            scrollThreshold: 0.5,
+            scrollSpeed: 750,
+            filter: "",
+            easing: "swing"
+         });
     });
    </script>
 </body>
