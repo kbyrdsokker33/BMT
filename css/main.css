@@ -1,7 +1,12 @@
 video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background:url("http://elegantthemes.com/preview/InStyle/wp-content/uploads/2008/11/s-1.jpg");
     background-size: cover;
 }
 #loader-wrapper {
