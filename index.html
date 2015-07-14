@@ -94,8 +94,14 @@ It's the first mission to Pluto and its five moons.(CNN)NASA says its New Horizo
       })
         
      $(document).ready(function() {
-         
-       
+         $('#nav-ok').onePageNav({
+            currentClass: "active",
+            changeHash: false,
+            scrollThreshold: 0.5,
+            scrollSpeed: 750,
+            filter: "",
+            easing: "swing"
+         });
     });
    </script>
 </body>
