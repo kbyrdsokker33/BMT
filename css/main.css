@@ -41,6 +41,13 @@ h2{
 
 }
 
+img#squad{
+	width:550px;
+	height:302px;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
 .underline{
   width:100px;
   height:3px;
