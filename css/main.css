@@ -16,7 +16,6 @@ video{
         height: auto; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
-	color: #f8f8f8;
 	/*background-color:#3A4B9F;*/
 	background-size: cover;
 	text-align: center;
@@ -31,6 +30,20 @@ h1#BMT{
     position: absolute;
     top: 0px;
     padding: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.underline{
+  width:100px;
+  height:3px;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 10px;
 }
 
 #loader-wrapper {
