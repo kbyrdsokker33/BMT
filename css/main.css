@@ -1,5 +1,4 @@
 video{
-    position: fixed; right: 0; bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto !important;
@@ -22,6 +21,7 @@ h1#BMT{
     border: black solid 2px;
     font-size: 50px;
     z-index: 1;
+    bottom:0;
 }
 
 #loader-wrapper {
