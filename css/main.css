@@ -49,8 +49,11 @@ ul.img-list li {
 .member{
 	width: 156px !important;
 }
-.grant{
-	height: 152px !important;
+#casey{
+	height: 151px !important;
+}
+#grant{
+	height: 149px !important;
 }
 h1#BMT{
     font-family: san-serif, Arial, Gothic;
