@@ -44,7 +44,10 @@ ul.img-list li {
   height: 150px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 350px;
+  width: 295px;
+}
+.member{
+	width: 156px !important;
 }
 h1#BMT{
     font-family: san-serif, Arial, Gothic;
