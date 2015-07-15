@@ -156,22 +156,14 @@ img#squad{
   margin-bottom: 10px;
 }
 
-.BeforeReached
-{
-  height: 100%;
-  width: 100%; 
-  display: none;
+#showHide {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 0;
 }
-
 
 /*Use this class when you want your content to be shown after some scroll*/
-.AfterScroll
-{
-  height: 100%; 
-  width: 100%; 
-  
-  display: block;
-}
 
 #loader-wrapper {
     position: fixed;
