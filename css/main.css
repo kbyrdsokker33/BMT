@@ -12,7 +12,7 @@ video{
     background-size: cover;
 }
 #para{
-	background: url("css/bmtcol.png"), no-repeat;
+	background: url("imgs/bmtcoll.png"), no-repeat;
 	background-size: cover;
 	z-index: -100;
 	
