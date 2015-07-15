@@ -71,7 +71,9 @@ p#desc{
         padding: 100px;
         padding-left:150px;
 }
-
+#grant{
+	height: 152px !important;
+}
 h2{
     text-align: center;
     font-size: 45px;
