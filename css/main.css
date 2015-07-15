@@ -106,12 +106,27 @@ h1#BMT{
 	vertical-align: middle;
 }
 
+
 .img-list li:hover figcaption {
 	opacity: 1;
 }
 
 .img-list li:active figcaption {
 	opacity: 1;
+}
+
+h3{
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+}
+h5{
+	margin-left: 25px;
+	color: black;
+	margin-top: 15px;
+}
+img{
+	text-align:center;
 }
 .social a{
   display:inline-block;
