@@ -35,7 +35,7 @@ video{
 h1#BMT{
     font-family: Sans-Serif;
     text-transform:uppercase;
-    color: white:
+    color: blue:
     text-shadow:black 2px;
     font-size: 50px;
     z-index: 1;
@@ -47,6 +47,10 @@ p#desc{
 	font-style: italic;
 	font-size: 14px;
 	color: white;
+	z-index: 1;
+        position: absolute;
+        top: 0px;
+        padding-top: 30px;
 }
 
 h2{
