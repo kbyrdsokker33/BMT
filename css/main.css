@@ -109,6 +109,16 @@ h1#BMT{
 .img-list li:hover figcaption {
 	opacity: 1;
 }
+.social a{
+  display:inline-block;
+  margin-right:10px;
+}
+
+.social{
+  margin: 0 auto;
+  text-align:center;
+}
+
 p#desc{
 	font-style: italic;
 	font-size: 21px;
