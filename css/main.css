@@ -127,7 +127,7 @@ h1#BMT{
 p#desc{
 	font-style: italic;
 	font-size: 21px;
-	color: white;
+	color: blue;
 	z-index: 1;
         position: absolute;
         top: 0px;
@@ -154,6 +154,23 @@ img#squad{
   margin: auto;
   background-color: black;
   margin-bottom: 10px;
+}
+
+.BeforeReached
+{
+  height: 100%;
+  width: 100%; 
+  display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  height: 100%; 
+  width: 100%; 
+  
+  display: block;
 }
 
 #loader-wrapper {
