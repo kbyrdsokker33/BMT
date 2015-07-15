@@ -109,6 +109,10 @@ h1#BMT{
 .img-list li:hover figcaption {
 	opacity: 1;
 }
+
+.img-list li:active figcaption {
+	opacity: 1;
+}
 .social a{
   display:inline-block;
   margin-right:10px;
@@ -117,6 +121,7 @@ h1#BMT{
 .social{
   margin: 0 auto;
   text-align:center;
+  margin-top: 40px;
 }
 
 p#desc{
