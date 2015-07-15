@@ -55,30 +55,8 @@ ul.img-list li {
 #grant{
 	height: 149px !important;
 }
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-}
+
+
 h1#BMT{
     font-family: san-serif, Arial, Gothic;
     text-transform:uppercase;
@@ -90,6 +68,44 @@ h1#BMT{
     position: absolute;
     top: 0px;
     padding: 30px;
+}
+.img-list img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+ 
+.img-list figure {
+	height: 163px;
+	overflow: hidden;
+	position: relative;
+	width: 289px;
+}
+ 
+.img-list figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+ 
+.img-list figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+
+.img-list li:hover figcaption {
+	opacity: 1;
 }
 p#desc{
 	font-style: italic;
