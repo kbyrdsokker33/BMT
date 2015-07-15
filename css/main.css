@@ -56,6 +56,9 @@ ul.img-list li {
 #grant{
 	height: 149px !important;
 }
+#tractor{
+	text-align: center;
+}
 
 
 h1#BMT{
@@ -124,9 +127,6 @@ h5{
 	margin-left: 25px;
 	color: black;
 	margin-top: 15px;
-}
-img{
-	text-align:center;
 }
 .social a{
   display:inline-block;
