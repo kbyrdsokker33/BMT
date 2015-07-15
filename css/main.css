@@ -58,7 +58,7 @@ ul.img-list li {
 h1#BMT{
     font-family: san-serif, Arial, Gothic;
     text-transform:uppercase;
-    color: blue:
+    color: white:
     text-shadow:black 2px;
     font-size: 58px;
     z-index: 1;
@@ -70,7 +70,7 @@ h1#BMT{
 p#desc{
 	font-style: italic;
 	font-size: 21px;
-	color: blue;
+	color: white;
 	z-index: 1;
         position: absolute;
         top: 0px;
