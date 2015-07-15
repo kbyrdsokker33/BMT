@@ -11,6 +11,12 @@ video{
     z-index: -100;
     background-size: cover;
 }
+#para{
+	background: url("css/bmtcol.png"), no-repeat;
+	background-size: cover;
+	z-index: -100;
+	
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
