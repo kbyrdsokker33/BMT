@@ -197,14 +197,14 @@ Members of Boy Meets Tractor write and rehearse two times per week and film sket
           function fade() {
          
       /* Check the location of each desired element */
-            var objectBottom = $("#ShowHide").offset().top + $("#ShowHide").outerHeight();
+            var objectBottom = $("#showHide").offset().top + $("#showHide").outerHeight();
             var windowBottom = $(window).scrollTop() + $(window).innerHeight();
 
       /* If the object is completely visible in the window, fade it in */
           if (objectBottom < windowBottom) {
-              if ($("#ShowHide").css('opacity')==0) {$("#ShowHide").fadeTo(500,1);}
+              if ($("#showHide").css('opacity')==0) {$("#showHide").fadeTo(500,1);}
           } else {
-            if ($("#ShowHide").css('opacity')==1) {$("#ShowHide").fadeTo(500,0);}
+            if ($("#showHide").css('opacity')==1) {$("#showHide").fadeTo(500,0);}
           }
  
            }
