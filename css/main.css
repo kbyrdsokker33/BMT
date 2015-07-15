@@ -33,15 +33,20 @@ video{
 	padding-top:30px;
 }
 h1#BMT{
-    display: none;	
+    font-family: Sans-Serif;
     text-transform:uppercase;
-    color: blue;
+    color: white:
     text-shadow:black 2px;
     font-size: 50px;
     z-index: 1;
     position: absolute;
     top: 0px;
     padding: 30px;
+}
+p#desc{
+	font-style: italic;
+	font-size: 14px;
+	color: white;
 }
 
 h2{
