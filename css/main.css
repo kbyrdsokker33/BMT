@@ -33,24 +33,26 @@ video{
 	padding-top:30px;
 }
 h1#BMT{
-    font-family: Sans-Serif;
+    font-family: san-serif, Arial, Gothic;
     text-transform:uppercase;
     color: blue:
     text-shadow:black 2px;
-    font-size: 50px;
+    font-size: 58px;
     z-index: 1;
+    font-weight:bold;
     position: absolute;
     top: 0px;
     padding: 30px;
 }
 p#desc{
 	font-style: italic;
-	font-size: 14px;
+	font-size: 21px;
 	color: white;
 	z-index: 1;
         position: absolute;
         top: 0px;
-        padding-top: 30px;
+        padding: 100px;
+        padding-left:150px;
 }
 
 h2{
