@@ -85,12 +85,9 @@ h3{
 	font-size: 38px;
 	color: white !important;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
-h5{
-	font-size:20px;
-	color: white !imporant;
-	font-weight: bold;
-}
+
 .img-list img {
 	display: block;
 	height: auto;
@@ -136,15 +133,14 @@ h5{
 	opacity: 1;
 }
 
-h3{
-	font-weight: bold;
-	color: black;
-	margin-bottom: 10px;
-}
+
 h5{
 	margin-left: 25px;
 	color: black;
 	margin-top: 15px;
+	font-size:20px;
+	color: white !imporant;
+	font-weight: bold;
 }
 .social a{
   display:inline-block;
