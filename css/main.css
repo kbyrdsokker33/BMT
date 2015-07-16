@@ -79,6 +79,17 @@ h1#BMT{
     top: 0px;
     padding: 30px;
 }
+
+h3{
+	font-size: 38px;
+	color: white !important;
+	font-weight: bold;
+}
+h5{
+	font-size:20px;
+	color: white !imporant;
+	font-weight: bold;
+}
 .img-list img {
 	display: block;
 	height: auto;
