@@ -18,6 +18,9 @@ video{
 	height: 600px;
 	
 }
+#upcoming{
+	color: white !important;
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
