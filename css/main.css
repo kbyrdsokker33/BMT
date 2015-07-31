@@ -42,6 +42,13 @@ video{
 .content2{
 	padding-top:30px;
 }
+#group{
+	margin-right: 15px;
+}
+#about{
+	margin-left: 10px;
+	font-size: 13px;
+}
 ul.img-list {
   list-style-type: none;
   margin: 0;
