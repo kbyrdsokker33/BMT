@@ -3,7 +3,10 @@ html, body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    
+}
+#content{
+	overflow-x: hidden; 
 }
 video{
     min-width: 100%;
