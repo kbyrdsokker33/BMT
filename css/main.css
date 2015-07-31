@@ -376,6 +376,15 @@ h1 {
   h3{
   	font-size: 29px;
   }
+  
+  #BMT{
+  	font-size: 24px;
+  }
+  #desc{
+  	font-size: 13px;
+  	padding: 74px;
+  	padding-left: 31px;
+  }
 
 
 }
