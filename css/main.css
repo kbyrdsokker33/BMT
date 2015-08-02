@@ -4,7 +4,7 @@ html, body{
     
 }
 #content{
-	https://github.com/kbyrdsokker33/BMT/edit/gh-pages/css/main.css
+	overflow-x:hidden;
 }
 video{
     position: fixed;
