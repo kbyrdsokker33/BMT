@@ -1,14 +1,15 @@
 html, body{
     width: 100%;
     height: 100%;
+    overflow-x:hidden;
     
 }
-#content{
-	overflow-x:hidden;
-}
+.abcen1{position: absolute;top: 20%;}
+
+
 video{
     
-
+    position: fixed; right: 0; bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto !important;
@@ -51,6 +52,7 @@ video{
 
 .content2{
 	padding-top:30px;
+	background-color: white;
 }
 #group{
 	margin-right: 15px;
